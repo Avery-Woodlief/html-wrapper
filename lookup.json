@@ -1,0 +1,308 @@
+{
+    "html": {
+        "attributes": [
+            "lang"
+        ],
+        "required": []
+    },
+    "meta": {
+        "attributes": [
+            "charset",
+            "name",
+            "content"
+        ],
+        "required": []
+    },
+    "link": {
+        "attributes": [
+            "rel",
+            "href",
+            "type"
+        ],
+        "required": [
+            "rel",
+            "href"
+        ]
+    },
+    "script": {
+        "attributes": [
+            "src",
+            "type",
+            "defer",
+            "async"
+        ],
+        "required": []
+    },
+    "a": {
+        "attributes": [
+            "href",
+            "target",
+            "rel",
+            "download",
+            "title",
+            "class",
+            "id"
+        ],
+        "required": [
+            "href"
+        ]
+    },
+    "img": {
+        "attributes": [
+            "src",
+            "alt",
+            "width",
+            "height",
+            "loading",
+            "class",
+            "id"
+        ],
+        "required": [
+            "src",
+            "alt"
+        ]
+    },
+    "form": {
+        "attributes": [
+            "action",
+            "method",
+            "autocomplete",
+            "class",
+            "id"
+        ],
+        "required": []
+    },
+    "input": {
+        "attributes": [
+            "type",
+            "name",
+            "id",
+            "value",
+            "placeholder",
+            "required",
+            "checked",
+            "min",
+            "max"
+        ],
+        "required": []
+    },
+    "button": {
+        "attributes": [
+            "type",
+            "disabled",
+            "name",
+            "value",
+            "class",
+            "id"
+        ],
+        "required": []
+    },
+    "label": {
+        "attributes": [
+            "for",
+            "class",
+            "id"
+        ],
+        "required": []
+    },
+    "textarea": {
+        "attributes": [
+            "rows",
+            "cols",
+            "placeholder",
+            "maxlength",
+            "class",
+            "id"
+        ],
+        "required": []
+    },
+    "select": {
+        "attributes": [
+            "name",
+            "multiple",
+            "required",
+            "class",
+            "id"
+        ],
+        "required": []
+    },
+    "option": {
+        "attributes": [
+            "value",
+            "selected",
+            "disabled"
+        ],
+        "required": []
+    },
+    "iframe": {
+        "attributes": [
+            "src",
+            "width",
+            "height",
+            "allowfullscreen",
+            "loading"
+        ],
+        "required": [
+            "src"
+        ]
+    },
+    "audio": {
+        "attributes": [
+            "src",
+            "controls",
+            "autoplay",
+            "loop",
+            "muted"
+        ],
+        "required": []
+    },
+    "video": {
+        "attributes": [
+            "src",
+            "controls",
+            "autoplay",
+            "loop",
+            "muted",
+            "width",
+            "height"
+        ],
+        "required": []
+    },
+    "div": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title",
+            "hidden",
+            "data-*"
+        ],
+        "required": []
+    },
+    "header": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "nav": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "main": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "section": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "article": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "footer": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "p": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "span": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "h1": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "h2": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "h3": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "h4": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "h5": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    },
+    "h6": {
+        "attributes": [
+            "id",
+            "class",
+            "style",
+            "title"
+        ],
+        "required": []
+    }
+}
