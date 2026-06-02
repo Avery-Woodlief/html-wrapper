@@ -9,7 +9,10 @@ If there is an unsupported html element that is not listed below but you would l
 
     1) navigate to references.py and open the file
     2) say the name of the new element you would like to use is called foo_element.
-        Then
+        Then put this line anywhere in the references.py file above line 3:
+            lookup[foo_element] = {"attributes": [$attr_1, attr_2, ..., attr_N$],
+                                   "required": [$req_1, req_2, ..., req_M$]}
+            
     
 
 ## Tags supported
