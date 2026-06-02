@@ -1,4 +1,4 @@
-from tags import *
+from tags_generated_classes import *
 import json
 
 def expand_(root):

@@ -1,4 +1,5 @@
 import json
+import re
 
 with open("lookup.json", "r") as file:
     lookup = json.load(file)
@@ -13,15 +14,20 @@ class Element:
         self.string = ""
         self.text = ""
 
-    def init_attributes(self):
+    def init_attributes_dict(self):
         attribute_names = lookup[self.name]["attributes"]
+        #print(self.attributes)
         for attr in attribute_names:
-            self.attributes[attr] = None
-        self.required_attributes = lookup[self.name]["required"]
+            exec(f'''self.attributes[attr] = self.{re.sub("[-*]", "", attr)}_''')
+
 
     def __str__(self):
-        first_attr = list(self.attributes.keys())[0]
-        attr_string = f"{first_attr}='{self.attributes[first_attr]}'"
+        try:
+            #print(self.attributes.keys())
+            first_attr = list(self.attributes.keys())[0]
+            attr_string = f"{first_attr}='{self.attributes[first_attr]}'"
+        except (IndexError):
+            attr_string = ""
         for name, value in self.attributes.items():
             if name == first_attr:
                 continue
@@ -42,6 +48,7 @@ class Element:
             raise KeyError(f"{self.name} has no {item} attribute!")
         else:
             self.attributes[item] = value
+            exec(f'''self.{re.sub("[-*]", "", item)}_ = {value}''')
 
     def add(self, elem):
         self.children.append(elem)

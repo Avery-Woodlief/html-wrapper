@@ -2,6 +2,7 @@ import json
 
 lookup = {}
 
+
 lookup["html"] = {
     "attributes": ["lang"],
     "required": []
