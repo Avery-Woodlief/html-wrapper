@@ -27,7 +27,7 @@ Now simply run
 in the terminal and you are good to go to use that new element!
     
 
-## Tags supported
+## Tags supported (default)
 
 - html
 - meta
