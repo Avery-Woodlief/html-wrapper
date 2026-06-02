@@ -7,7 +7,7 @@ tags_file = '''from element import Element, lookup\n'''
 tags_file += "# classes for the supported html elements\n\n"
 
 
-for element, stuff in lookup.items():
+for element, _____ in lookup.items():
     elem_attributes = lookup[element]["attributes"]
     formatted_strings = {}
     for i in range(len(elem_attributes)):
