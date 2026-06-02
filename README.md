@@ -7,7 +7,7 @@ The best feature of the html-wrapper library is that it is very flexible with un
 
 If there is an unsupported html element that is not listed below but you would like to use, then do the following:
 
-    1) `navigate to references.py and open the file`
+    1) navigate to references.py and open the file
     
 
 ## Tags supported
