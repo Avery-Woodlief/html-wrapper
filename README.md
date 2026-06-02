@@ -13,7 +13,7 @@ If there is an unsupported html element that is not listed below but you would l
             lookup[foo_element] = {"attributes": [attr_1, attr_2, ..., attr_N],
                                    "required": [req_1, req_2, ..., req_M]}
 
-where ${attr_i}$ are the attributes of the element and 
+where ${attr_i} _{i=1}$ are the attributes of the element and 
 ${req_{j}}_{j=1}^{M}$ are the required attributes of the element.
     3) Now simply run `python3 references.py && python3 tags.py` in the terminal and you are good to go to use that new element!
     
