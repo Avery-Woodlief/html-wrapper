@@ -1,6 +1,15 @@
 # html-wrapper
 wrappers for tags and document to write html in and upload to a json file for further use
 
+# How to use:
+
+The best feature of the html-wrapper library is that it is very flexible with unsupported html elements.
+
+If there is an unsupported html element that is not listed below but you would like to use, then do the following:
+
+    1) `navigate to references.py and open the file`
+    
+
 ## Tags supported
 
 - html
